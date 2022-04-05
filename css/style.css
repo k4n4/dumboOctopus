@@ -1,0 +1,359 @@
+/* ここから下に記載していく */
+/* ■header */
+.header {
+    display: flex; /*タグの中のアイテムを横並びにする*/
+}
+.header__nav {
+    display: flex; /*タグの中のアイテムを横並びにする*/
+    justify-content: space-around;/*いい感じに間を空けて並べる*/
+    align-items: center;/*上下を中央ぞろえにする*/
+}
+
+.header__nav li {
+    margin-left: 40px; /*アイテム同士の外側の感覚を40px確保*/
+}
+
+
+
+/* ■メインビジュアル */
+.mainvisual {
+    height: 300px;
+    /* cssで画像を背景に設定 */
+    background: url(../img/study01.jpeg);
+    background-color: rgba(92, 88, 88, 0.2);
+    /* opacity: 70%; */
+    /* 背景画像の位置調整 */
+    background-position: center;
+    /*画像の中心を表示する*/
+    background-size: cover;/*400pxぴったりとカバーする*/
+    background-repeat:no-repeat;/*余白が生まれてもリピートしない*/
+}
+
+.mainvisual__title {
+    font-size: 28px;
+    font-weight: bold;
+    color:rgb(26, 36, 66);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.mainvisual__subtitle{
+    font-size: 26px;
+    font-weight: bold;
+    color:rgb(26, 36, 66);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ■About */
+.about {
+    text-align: center;
+    width:60%;/*ブラウザに対して60%の横幅 */
+    /* background-color: teal;  これはデバッグ用*/
+    margin-left: auto;
+    margin-right: auto;/*右も左もAutoにすることで中央ぞろえに */
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.about__title {
+    font-size: 24px;
+    font-weight: bold;
+    /* color:gold; */
+    color: #707070;
+    margin-bottom: 30px;
+}
+.about__subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+}
+.about__text {
+    margin-bottom: 40px;
+}
+
+/* ■イメージエリア */
+.imgBox{
+    display: flex;
+}
+
+.imgBox p{
+    width:25%; /*横幅を画面の25%ずつ*/
+}
+
+.imgBox p img {
+    width:100%; /*上記のpの中で画像は100%の割合で表示*/
+}
+
+/* ■course */
+.course {
+    margin: 50px 0;
+}
+
+.course__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.course__text {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 70px;
+}
+
+.course__box {
+    margin-top: 50px;
+}
+
+.course__inner {
+    display: flex;
+}
+
+.course__contet {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.course__contet__right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.course__contet img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.content__title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.content__text {
+    width: 100%;
+}
+
+.contet__left {
+    width: 70%;
+    margin-left: 50px;
+}
+
+.contet__right {
+    width: 70%;
+    margin-right: 50px;
+}
+
+/* ■news */
+.news {
+    text-align: center;
+}
+
+.news__title{
+    font-size: 30px;
+    font-weight: bold;
+    color:gold;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.news__subtitle {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.news__contents {
+    display: flex; /*要素を横並びにする*/
+    justify-content:center;/*横並びにした要素を中央ぞろえにする*/
+}
+
+/* リスト1に対するホバーアクション */
+.news__contents__first:hover {
+    opacity: 0.5;
+}
+/* リスト2に対するホバーアクション */
+.news__contents__second:hover {
+    opacity: 0.5;
+}
+/* リスト3に対するホバーアクション */
+.news__contents__third:hover {
+    opacity: 0.5;
+}
+/* リスト全体に対する指定 */
+.news__contents li {
+    width: 300px;
+    padding-left: 30px;
+    list-style: none;/*リストの黒点をなくす*/
+}
+/* リストの画像に対する指定 */
+.news__contents__img {
+    margin-bottom: 30px;
+}
+/* リストのテキスト(p)に対する指定 */
+.news__contents li p {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+/* ■More */
+.more {
+    text-align: center; /* buttonタグには text-align: center; が効かないのでここに記述*/
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.more_button {
+    background-color: gold;
+    color:white;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    border: none;  /* ボタンの枠線を消す */
+    outline: none; /* クリックしたときに表示される枠線を消す */
+}
+
+/* ボタンのホバーアクション */
+.more_button:hover {
+    opacity: 0.5;
+}
+
+/* ■access */
+.access {
+    height: 800px;
+    background-color:whitesmoke;
+    padding-top: 60px;
+}
+
+.access_title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.access_subtitle {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.access__map {
+    margin-bottom: 60px;
+}
+
+.access__officeInfo table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.access__officeInfo table td {
+    padding: 15px 20px; /* 上下・左右の間隔を指定 */
+    font-size: 20px;
+}
+
+/* ■CONTACT */
+.contact_title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.contact_subtitle {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact_text {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact__form {
+    margin-top: 70px;
+}
+
+.contact__form table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.contact__form table td {
+    padding: 16px 64px 16px 16px ; 
+    /* 上下・左右の間隔を指定 */
+    font-size: 20px;
+    border-top: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+.contact__form__title {
+    width:240px;
+    border-right: 2px solid #bfbfbf;
+}
+
+.contact__form__text1 {
+    width:328px;
+    height: 36px;
+}
+
+.contact__form table td select {
+    width:300px;
+    height: 40px;
+}
+
+.contact__form__checkbox {
+    font-size: 20px;
+}
+
+.contact__form__checkbox input{
+    margin-bottom: 24px;
+}
+
+.contact__form__text2 textarea {
+    width: 400px;
+    height: 200px;
+}
+
+.contact__submit {
+    text-align: center; /* buttonタグには text-align: center; が効かないのでここに記述*/
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.contact__submit__button {
+    background-color: gold;
+    color:white;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    border: none;  /* ボタンの枠線を消す */
+    outline: none; /* クリックしたときに表示される枠線を消す */
+}
+
+.contact__submit__button:hover {
+    opacity: 0.5;
+}
+
+.footer {
+    background-color: #707070;
+    width:100%;
+    height: 80px;
+    text-align: center;
+}
+
+.footer__text {
+    padding-top:30px;
+    padding-bottom:30px;
+    color: white;  
+}
