@@ -36,5 +36,133 @@
     <p class="mainvisual__subtitle">～進路に悩める中高生向けサイト～
     </p>
   </div>
+  <div class="news">
+  <h3 class="news__title">人気の記事</h3>
+  <div class="news__subtitle">よく読まれている記事はTOP3はこちら↓</div>
 
+  <!-- 横並びのリスト(ニュース一覧) -->
+  <ul class="news__contents">
+    <!-- 横並びのリストが三つ -->
+    <!-- リスト１ -->
+    <li class="news__contents__first">
+      <div class="news__contents__img">
+        <img src="img/news_img.jpg" alt="">
+      </div>
+      <div class="news__contents__date">
+        <p>2016/11/18</p>
+      </div>
+      <div class="news__content__text">
+        <p>ダミー（ピザ食べたい）</p>
+      </div>
+    </li>
+    <!-- リスト2 -->
+    <li class="news__contents__second">
+      <div class="news__contents__img">
+      <img src="img/news_img.jpg" alt="">
+      </div>
+      <div class="news__contents__date">
+        <p>2016/11/18</p>
+      </div>
+      <div class="news__content__text">
+        <p>ダミー（ピザ食べたい）</p>
+      </div>
+    </li>
+    <!-- リスト3 -->
+    <li class="news__contents__third">
+      <div class="news__contents__img">
+        <img src="img/news_img.jpg" alt="">
+      </div>
+      <div class="news__contents__date">
+        <p>2016/11/18</p>
+      </div>
+      <div class="news__content__text">
+        <p>ダミー（ピザ食べたい）</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="news">
+  <h3 class="news__title">記事一覧</h3>
+  <div class="news__subtitle"></div>
+   <!-- 横並びのリスト(ニュース一覧) -->
+   <ul class="news__contents">
+    <!-- 横並びのリストが三つ -->
+    <!-- リスト１ -->
+    <li class="news__contents__first">
+      <div class="news__contents__img">
+        <img src="img/news_img.jpg" alt="">
+      </div>
+      <div class="news__contents__date">
+        <p>2016/11/18</p>
+      </div>
+      <div class="news__content__text">
+        <p>ダミー（ピザ食べたい）</p>
+      </div>
+    </li>
+    <!-- リスト2 -->
+    <li class="news__contents__second">
+      <div class="news__contents__img">
+      <img src="img/news_img.jpg" alt="">
+      </div>
+      <div class="news__contents__date">
+        <p>2016/11/18</p>
+      </div>
+      <div class="news__content__text">
+        <p>ダミー（ピザ食べたい）</p>
+      </div>
+    </li>
+    <!-- リスト3 -->
+    <li class="news__contents__third">
+      <div class="news__contents__img">
+        <img src="img/news_img.jpg" alt="">
+      </div>
+      <div class="news__contents__date">
+        <p>2016/11/18</p>
+      </div>
+      <div class="news__content__text">
+        <p>ダミー（ピザ食べたい）</p>
+      </div>
+    </li>
+  </ul>
+  <ul class="news__contents">
+    <!-- 横並びのリストが三つ -->
+    <!-- リスト１ -->
+    <li class="news__contents__first">
+      <div class="news__contents__img">
+        <img src="img/news_img.jpg" alt="">
+      </div>
+      <div class="news__contents__date">
+        <p>2016/11/18</p>
+      </div>
+      <div class="news__content__text">
+        <p>ダミー（ピザ食べたい）</p>
+      </div>
+    </li>
+    <!-- リスト2 -->
+    <li class="news__contents__second">
+      <div class="news__contents__img">
+      <img src="img/news_img.jpg" alt="">
+      </div>
+      <div class="news__contents__date">
+        <p>2016/11/18</p>
+      </div>
+      <div class="news__content__text">
+        <p>ダミー（ピザ食べたい）</p>
+      </div>
+    </li>
+    <!-- リスト3 -->
+    <li class="news__contents__third">
+      <div class="news__contents__img">
+        <img src="img/news_img.jpg" alt="">
+      </div>
+      <div class="news__contents__date">
+        <p>2016/11/18</p>
+      </div>
+      <div class="news__content__text">
+        <p>ダミー（ピザ食べたい）</p>
+      </div>
+    </li>
+  </ul>
+</div>
 </body>

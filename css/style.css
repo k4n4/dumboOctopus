@@ -20,8 +20,8 @@
     height: 300px;
     /* cssで画像を背景に設定 */
     background: url(../img/study01.jpeg);
-    background-color: rgba(92, 88, 88, 0.2);
-    /* opacity: 70%; */
+    /* background-color: rgba(92, 88, 88, 0.2); */
+    opacity: 80%;
     /* 背景画像の位置調整 */
     background-position: center;
     /*画像の中心を表示する*/
@@ -92,6 +92,7 @@
 
 .course__title {
     font-size: 25px;
+    color: #707070;
     text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
@@ -158,7 +159,7 @@
 .news__title{
     font-size: 30px;
     font-weight: bold;
-    color:gold;
+    color:rgb(26, 36, 66);
     margin-bottom: 30px;
     margin-top: 60px;
 }
@@ -166,6 +167,7 @@
 .news__subtitle {
     font-size: 20px;
     margin-bottom: 60px;
+    color:rgb(26, 36, 66);
 }
 
 .news__contents {
@@ -202,6 +204,43 @@
     margin-bottom: 24px;
 }
 
+/* 紹介 */
+.introduce__title{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(26, 36, 66);
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.introduce__subtitle {
+    font-size: 20px;
+    margin-bottom: 60px;
+    color:rgb(26, 36, 66);
+}
+
+.introduce__contents {
+    display: flex; /*要素を横並びにする*/
+    justify-content:center;/*横並びにした要素を中央ぞろえにする*/
+}
+
+/* リスト全体に対する指定 */
+.introduce__contents li {
+    width: 300px;
+    padding-left: 30px;
+    list-style: none;/*リストの黒点をなくす*/
+}
+/* リストの画像に対する指定 */
+.introduce__contents__img {
+    margin-bottom: 30px;
+}
+/* リストのテキスト(p)に対する指定 */
+.introduce__contents li p {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
 /* ■More */
 .more {
     text-align: center; /* buttonタグには text-align: center; が効かないのでここに記述*/
@@ -210,7 +249,7 @@
 }
 
 .more_button {
-    background-color: gold;
+    background-color: black;
     color:white;
     width: 300px;
     height: 60px;
@@ -332,7 +371,7 @@
 }
 
 .contact__submit__button {
-    background-color: gold;
+    background-color:black;
     color:white;
     width: 300px;
     height: 60px;
